@@ -9,7 +9,7 @@ body{
 .active > a, .navbar-inverse .navbar-nav > 
 .active > a:hover, .navbar-inverse 
 .navbar-nav > .active > a:focus{
-	background-color: #E41B17;
+	background-color: #4267b2;
 }
 /*Main Navbar*/
 .navbar{
@@ -29,12 +29,12 @@ body{
 	line-height: 40px;
 }
 .navbar-inverse .navbar-brand span{
-	color: #E41B17;
+	color: #4267b2;
 }
 /*Dropdown Menu*/
 .dropdown-menu{
 	background-color: #333;
-	border-top:3px solid #E41B17;
+	border-top:3px solid #4267b2;
     min-width: 200px;
 }
 .navbar-right .dropdown-menu{
@@ -51,12 +51,12 @@ body{
 }
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus{
-	background-color: #E41B17;
+	background-color: #4267b2;
 	color: #FFF;
 	padding-left: 40px;
 }
 .dropdown-menu .divider{
-  background-color: #871818;
+  background-color: #4267b2;
 }
 /*Navbar Toggle*/
 .navbar-toggle{
@@ -82,7 +82,7 @@ body{
 .carousel-indicators .active{
 	width:18px;
 	height:18px;
-	background-color:#E41B17; 
+	background-color:#4267b2; 
 }
 @media screen and (max-width: 768px){
 .carousel-caption{
@@ -103,10 +103,10 @@ body{
 	font-weight: bold;
 }
 .about h1 span{
-	color: #E41B17;
+	color: #4267b2;
 }
 .about h3 span{
-	color: #E41B17;
+	color: #4267b2;
 }
 /*End About us*/
 /*start features*/
@@ -147,7 +147,7 @@ body{
 .testimonials span{
 	font-size: 18px;
 	font-weight: bold;
-	color: #E41B17;
+	color: #4267b2;
 }
 .testimonials .carousel-inner{
 	min-height: 160px;
@@ -175,7 +175,7 @@ body{
 .testimonials .carousel-indicators li.active{
 	opacity: 1;
 	background: none;
-	border: 3px solid #E41B17;
+	border: 3px solid #4267b2;
 }
 .testimonials .carousel-indicators li img{
 	max-width:100%; 
@@ -205,7 +205,7 @@ body{
 -moz-transform:scale(1.1,1.1) rotate(360deg);
 -o-transform:scale(1.1,1.1) rotate(360deg);
 transform:scale(1.1,1.1) rotate(360deg);	
-border: 2px solid #E41B17;
+border: 2px solid #4267b2;
 }
 .price .price_box p{
 	font-size:35px;
@@ -232,7 +232,7 @@ border: 2px solid #E41B17;
 /*End price table*/
 /*Start our team*/
 .our_team{
-	background:url("../images/team.jpg") no-repeat center  fixed;
+	background:url("../images/our.jpg") no-repeat center  fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -241,7 +241,7 @@ border: 2px solid #E41B17;
 }
 
 .our_team .team{
-background: rgba(2,2,2,.4);
+background: rgba(2,2,2,.6);
 color: #FFF;
 min-height: 600px;
 padding-top: 40px;
@@ -253,6 +253,9 @@ padding-bottom: 40px;
 }
 .our_team .team .person{
 	margin-bottom: 40px;
+}
+.our_team.fa-lg a{
+	rgb(136, 134, 160);
 }
 /*End our team*/
 /*Start Subscribe*/
@@ -296,3 +299,18 @@ padding-bottom: 40px;
 .contact-us textarea {background:rgba(82,78,78,0.5);color:#FFF;border:none}
 
 /* End  Contact Us */
+/*start footer*/
+.footer {
+	background-color:#222222;
+	padding: 8px 0;
+	text-align: center;
+	overflow: hidden;
+	height: 100px;
+}
+.footer p{
+	color: #FFF;
+	font-size:25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+/*end footer*/
